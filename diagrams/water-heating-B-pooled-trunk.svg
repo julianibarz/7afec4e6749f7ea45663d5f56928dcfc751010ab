@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 404" role="img" aria-label="Pooled plumbing: cold main splits to two tanks in parallel, their outputs merge into one trunk that passes through both boosters in series, then a mixing valve feeds every fixture in the house; a dashed recirculation line returns to the tanks">
+<style>
+  .bg { fill:#F6F8F7; }
+  .box { fill:#FFFFFF; stroke:#DBE3DF; stroke-width:1.5; }
+  .box.on { stroke:#009477; }
+  .box.off { stroke:#C96F35; stroke-dasharray:5 4; }
+  .box.boost { stroke:#C96F35; }
+  .w { stroke:#009477; stroke-width:2; fill:none; }
+  .w.off { stroke:#C96F35; stroke-dasharray:5 4; }
+  .wc { stroke:#8A968F; stroke-width:2; fill:none; }
+  .rc { stroke:#8A968F; stroke-width:1.5; fill:none; stroke-dasharray:4 4; }
+  text { font-family:'Avenir Next','Helvetica Neue',system-ui,sans-serif; font-size:13.5px; font-weight:600; fill:#14201D; }
+  .t2 { font-family:'SF Mono',Menlo,monospace; font-size:10.5px; font-weight:400; fill:#57665F; }
+  .cut { font-family:'SF Mono',Menlo,monospace; font-size:11px; font-weight:700; fill:#8F4C20; }
+  .cap { font-family:'SF Mono',Menlo,monospace; font-size:11px; font-weight:600; fill:#8F4C20; letter-spacing:0.1em; }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="404"/>
+<text class="cap" x="12" y="22">WATER HEATING · TOPOLOGY B · POOLED TRUNK</text>
+<g transform="translate(0,34)">
+      <line class="wc" x1="110" y1="190" x2="140" y2="190"/>
+      <line class="wc" x1="140" y1="116" x2="140" y2="264"/>
+      <line class="wc" x1="140" y1="116" x2="170" y2="116"/>
+      <line class="wc" x1="140" y1="264" x2="170" y2="264"/>
+      <line class="w" x1="320" y1="116" x2="350" y2="116"/>
+      <line class="w" x1="350" y1="116" x2="350" y2="264"/>
+      <line class="w" x1="320" y1="264" x2="350" y2="264"/>
+      <line class="w" x1="350" y1="190" x2="380" y2="190"/>
+      <line class="w" x1="500" y1="190" x2="530" y2="190"/>
+      <line class="w" x1="590" y1="216" x2="590" y2="290"/>
+      <line class="rc" x1="420" y1="316" x2="245" y2="316"/>
+      <line class="rc" x1="245" y1="316" x2="245" y2="290"/>
+      <rect class="box" x="10" y="164" width="100" height="52" rx="7"/>
+      <text x="60" y="186" text-anchor="middle">Cold main</text>
+      <text class="t2" x="60" y="204" text-anchor="middle">60 °F</text>
+      <rect class="box on" x="170" y="90" width="150" height="52" rx="7"/>
+      <text x="245" y="112" text-anchor="middle">Tank A · 80 gal</text>
+      <text class="t2" x="245" y="130" text-anchor="middle">HPWH · 140 °F</text>
+      <rect class="box on" x="170" y="238" width="150" height="52" rx="7"/>
+      <text x="245" y="260" text-anchor="middle">Tank B · 80 gal</text>
+      <text class="t2" x="245" y="278" text-anchor="middle">HPWH · 140 °F</text>
+      <rect class="box boost" x="380" y="164" width="120" height="52" rx="7"/>
+      <text x="440" y="186" text-anchor="middle">Booster 1</text>
+      <text class="t2" x="440" y="204" text-anchor="middle">18 kW</text>
+      <rect class="box boost" x="530" y="164" width="120" height="52" rx="7"/>
+      <text x="590" y="186" text-anchor="middle">Booster 2</text>
+      <text class="t2" x="590" y="204" text-anchor="middle">18 kW · in series = 36 kW lift</text>
+      <rect class="box on" x="420" y="290" width="270" height="52" rx="7"/>
+      <text x="555" y="312" text-anchor="middle">Mixing valve → whole house</text>
+      <text class="t2" x="555" y="330" text-anchor="middle">120 °F to every fixture, both floors</text>
+      <text class="t2" x="245" y="66" text-anchor="middle">parallel · reverse-return · isolation valves</text>
+    </g>
+</svg>

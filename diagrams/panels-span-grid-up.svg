@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 394" role="img" aria-label="SPAN topology, grid up: meter feeds the Gateway; Powerwalls and solar attach behind it; both SPAN panels sit behind the Gateway — no grid-side panel exists">
+<style>
+  .bg { fill:#F6F8F7; }
+  .box { fill:#FFFFFF; stroke:#DBE3DF; stroke-width:1.5; }
+  .box.on { stroke:#009477; }
+  .box.off { stroke:#C96F35; stroke-dasharray:5 4; }
+  .box.boost { stroke:#C96F35; }
+  .w { stroke:#009477; stroke-width:2; fill:none; }
+  .w.off { stroke:#C96F35; stroke-dasharray:5 4; }
+  .wc { stroke:#8A968F; stroke-width:2; fill:none; }
+  .rc { stroke:#8A968F; stroke-width:1.5; fill:none; stroke-dasharray:4 4; }
+  text { font-family:'Avenir Next','Helvetica Neue',system-ui,sans-serif; font-size:13.5px; font-weight:600; fill:#14201D; }
+  .t2 { font-family:'SF Mono',Menlo,monospace; font-size:10.5px; font-weight:400; fill:#57665F; }
+  .cut { font-family:'SF Mono',Menlo,monospace; font-size:11px; font-weight:700; fill:#8F4C20; }
+  .cap { font-family:'SF Mono',Menlo,monospace; font-size:11px; font-weight:600; fill:#8F4C20; letter-spacing:0.1em; }
+</style>
+<rect class="bg" x="0" y="0" width="680" height="394"/>
+<text class="cap" x="12" y="22">PANELS · SPAN · GRID UP</text>
+<g transform="translate(0,34)">
+        <line class="w" x1="95" y1="92" x2="95" y2="150"/>
+        <line class="w" x1="170" y1="176" x2="240" y2="176"/>
+        <line class="w" x1="420" y1="176" x2="500" y2="176"/>
+        <line class="w" x1="580" y1="92" x2="580" y2="150"/>
+        <line class="w" x1="330" y1="202" x2="330" y2="240"/>
+        <line class="w" x1="155" y1="240" x2="505" y2="240"/>
+        <line class="w" x1="155" y1="240" x2="155" y2="265"/>
+        <line class="w" x1="505" y1="240" x2="505" y2="265"/>
+        <rect class="box on" x="20" y="40" width="150" height="52" rx="7"/>
+        <text x="95" y="62" text-anchor="middle">PG&amp;E grid</text>
+        <text class="t2" x="95" y="80" text-anchor="middle">320 A ≈ 77 kW</text>
+        <rect class="box on" x="20" y="150" width="150" height="52" rx="7"/>
+        <text x="95" y="172" text-anchor="middle">Meter + main</text>
+        <text class="t2" x="95" y="190" text-anchor="middle">400 A-class</text>
+        <rect class="box on" x="240" y="150" width="180" height="52" rx="7"/>
+        <text x="330" y="172" text-anchor="middle">Backup Gateway</text>
+        <text class="t2" x="330" y="190" text-anchor="middle">contactor CLOSED</text>
+        <rect class="box on" x="500" y="150" width="160" height="52" rx="7"/>
+        <text x="580" y="172" text-anchor="middle">Powerwall ×2</text>
+        <text class="t2" x="580" y="190" text-anchor="middle">23 kW · 27 kWh</text>
+        <rect class="box on" x="500" y="40" width="160" height="52" rx="7"/>
+        <text x="580" y="62" text-anchor="middle">Solar</text>
+        <text class="t2" x="580" y="80" text-anchor="middle">~20 kW DC</text>
+        <rect class="box on" x="65" y="265" width="180" height="52" rx="7"/>
+        <text x="155" y="287" text-anchor="middle">SPAN Panel 1</text>
+        <text class="t2" x="155" y="305" text-anchor="middle">essentials · must-haves</text>
+        <rect class="box on" x="415" y="265" width="180" height="52" rx="7"/>
+        <text x="505" y="287" text-anchor="middle">SPAN Panel 2</text>
+        <text class="t2" x="505" y="305" text-anchor="middle">boosters · EVs · flex</text>
+      </g>
+</svg>
